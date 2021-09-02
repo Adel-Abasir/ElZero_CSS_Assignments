@@ -194,3 +194,20 @@
 .assignment-13-16 .assign-02 .special {
     max-height: 40px;
 }
+
+/* Assignment 17 - 21 styles  */
+
+/* Assgin 01 Styles */
+.assignment-17-21 .assign-01 .card {
+    width: 400px;
+    margin: 8px auto;
+    padding: 16px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.assignment-17-21 .assign-01 .card span {
+    font-size: 48px;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 0 orangered, 2px 2px 0 blue, 3px 3px 0 purple;
+}
