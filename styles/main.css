@@ -66,3 +66,35 @@
     background-position: bottom;
 
 }
+
+/* Assign 04 Styles  */
+.assignment-5-8 .assign-04 div {
+    width: 400px;
+    height: 400px;
+    background-image: url(../assets/imgs/css-assignment-5-8-02.png);
+    background-color: #ddd;
+    margin: 20px auto;
+}
+
+.assignment-5-8 .assign-04 .assign-4-shape-1 {
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+
+.assignment-5-8 .assign-04 .assign-4-shape-2 {
+    background-repeat: repeat-y;
+    background-size: 80%;
+    background-position: right;
+}
+
+.assignment-5-8 .assign-04 .assign-4-shape-3 {
+    background-repeat: repeat-x;
+    background-size: 80%;
+    background-position: bottom;
+}
+
+.assignment-5-8 .assign-04 .assign-4-shape-4 {
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: bottom right;
+}
