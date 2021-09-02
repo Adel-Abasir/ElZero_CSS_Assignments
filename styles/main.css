@@ -315,3 +315,44 @@
     font-family: 'Jomhuria', cursive;
     font-size: 1.5rem;
 }
+
+/* Assignment 27 - 29 styles  */
+
+/* Assgin 01 Styles */
+.assignment-27-29 .assign-01 .parent {
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #eee;
+}
+
+.assignment-27-29 .assign-01 .parent .full-width,
+.assignment-27-29 .assign-01 .parent .one-third-width,
+.assignment-27-29 .assign-01 .parent .half-width,
+.assignment-27-29 .assign-01 .parent .quarter-width {
+    margin: 15px 0 15px 15px;
+    padding: 32px 16px;
+    float: left;
+    background-color: #ccc;
+}
+
+.assignment-27-29 .assign-01 .parent .full-width {
+    width: calc( (100% - 62px) );
+}
+
+.assignment-27-29 .assign-01 .parent .one-third-width {
+    width: calc( (100% - 156px) / 3);
+}
+
+.assignment-27-29 .assign-01 .parent .half-width {
+    width: calc( (100% - 109px) / 2);
+}
+
+.assignment-27-29 .assign-01 .parent .quarter-width {
+    width: calc( (100% - 202px) / 4);
+}
+
+.assignment-27-29 .assign-01 .parent .clear {
+    clear: both;
+}
