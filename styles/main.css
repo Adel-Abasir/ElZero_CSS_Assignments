@@ -1,0 +1,21 @@
+/* Side Panel Styles  */
+.side-panel .nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Assignment 05 - 08 styles  */
+.assignment-5-8 .assign-01 div {
+    width: 500px;
+    margin: 20px auto;
+    background-color: rgb(138, 43, 226);    
+    padding: 20px;
+}
+
+.assignment-5-8 .assign-01 .assign-1-shape-2 {
+    background-color: rgb(138, 43, 226, 50%);    
+}
+
+.assignment-5-8 .assign-01 .assign-1-shape-3 {
+    background-color: rgb(138, 43, 226, 10%);    
+}
