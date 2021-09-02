@@ -211,3 +211,26 @@
     text-transform: capitalize;
     text-shadow: 1px 1px 0 orangered, 2px 2px 0 blue, 3px 3px 0 purple;
 }
+
+/* Assgin 02 Styles */
+.assignment-17-21 .assign-02 {
+    width: 600px;
+    margin: 8px auto;
+    padding: 16px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.assignment-17-21 .assign-02 .one {
+    text-transform: uppercase;
+    font-size: 32px;
+} 
+
+.assignment-17-21 .assign-02 .two {
+    text-transform: capitalize;
+    font-size: 32px;
+} 
+
+.assignment-17-21 .assign-02 .three {
+    font-size: 32px;
+} 
