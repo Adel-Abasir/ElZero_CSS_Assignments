@@ -252,3 +252,20 @@
 .assignment-17-21 .assign-03 .three {
     text-overflow: ellipsis;
 }
+
+/* Assgin 04 Styles */
+.assignment-17-21 .assign-04 {
+    background-color: #009688;
+    width: 200px;
+    margin: 16px auto;
+    padding: 32px 16px;
+    text-align: center;
+    border-bottom: 12px solid #00514A;
+    color: #fff;
+}
+
+.assignment-17-21 .assign-04 a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+}
