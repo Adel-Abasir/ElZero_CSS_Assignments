@@ -125,3 +125,28 @@
     border-color: red green blue yellow;
     outline: 5px solid black;
 }
+
+/* Assign 02 Styles */
+.assignment-9-12 .assign-02 .card {
+    width: 400px;
+    margin: 8px auto;
+    padding: 16px;
+    background-color: #eee;    
+}
+
+.assignment-9-12 .assign-02 .card div {
+    border-left: 6px solid;
+    padding: 12px;
+}
+
+.assignment-9-12 .assign-02 .card .assign-2-shape-1 {
+    border-color: #E91E63;
+}
+
+.assignment-9-12 .card-hidden {
+    visibility: hidden;
+}
+
+.assignment-9-12 .assign-02 .card .assign-2-shape-3 {
+    border-color: #009688;
+}   
