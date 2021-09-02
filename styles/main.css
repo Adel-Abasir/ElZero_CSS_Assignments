@@ -42,3 +42,27 @@
 .assignment-5-8 .assign-02 .assign-2-shape-3 {
     background-repeat: repeat-x;
 }
+
+/* Assign 03 Styles  */
+.assignment-5-8 .assign-03 div {
+    width: 400px;
+    height: 400px;
+    background-image: url(../assets/imgs/css-assignment-5-8-02.png);
+    background-color: #ddd;
+    margin: 20px auto;
+}
+
+.assignment-5-8 .assign-03 .assign-3-shape-1 {
+    background-repeat: no-repeat;
+}
+
+.assignment-5-8 .assign-03 .assign-3-shape-2 {
+    background-repeat: repeat-y;
+    background-position: right;
+}
+
+.assignment-5-8 .assign-03 .assign-3-shape-3 {
+    background-repeat: repeat-x;
+    background-position: bottom;
+
+}
