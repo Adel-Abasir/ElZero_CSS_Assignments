@@ -99,7 +99,7 @@
     background-position: bottom right;
 }
 
-/* Assignment 05 - 08 styles  */
+/* Assignment 09 - 12 styles  */
 
 /* Assign 01 Styles */
 .assignment-9-12 .assign-01 div {
@@ -149,4 +149,28 @@
 
 .assignment-9-12 .assign-02 .card .assign-2-shape-3 {
     border-color: #009688;
-}   
+} 
+
+/* Assignment 13 - 16 styles  */
+
+/* Assgin 01 Styles */
+.assignment-13-16 .assign-01 {
+    background-color: #eee;
+    width: 400px;
+    margin: 8px auto;
+    padding: 16px;
+    text-align: center;
+}
+
+.assignment-13-16 .assign-01 .parent div .title {
+    color: red;
+}
+
+.assignment-13-16 .assign-01 .parent .title {
+    color: blue;
+}
+
+.assignment-13-16 .assign-01 .parent p,
+.assignment-13-16 .assign-01 .title {
+    color: green;
+}
