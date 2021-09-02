@@ -1,1 +1,3 @@
-# ElZero_CSS_Assignments
+# ElZero CSS Assignments
+
+Please [Click Here](https://elzero.org/category/assignments/css-assignments/) for more Information about each Assignment
