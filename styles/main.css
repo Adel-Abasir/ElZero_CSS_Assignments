@@ -233,4 +233,22 @@
 
 .assignment-17-21 .assign-02 .three {
     font-size: 32px;
-} 
+}
+
+/* Assgin 03 Styles */
+.assignment-17-21 .assign-03 div {
+    background-color: #eee;
+    width: 400px;
+    margin: 8px auto;
+    padding: 16px;
+}
+
+.assignment-17-21 .assign-03 .two,
+.assignment-17-21 .assign-03 .three {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.assignment-17-21 .assign-03 .three {
+    text-overflow: ellipsis;
+}
