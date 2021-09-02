@@ -269,3 +269,49 @@
     text-decoration: none;
     text-transform: capitalize;
 }
+
+/* Assignment 22 - 26 styles  */
+
+/* Assgin 01 Styles */
+.assignment-22-26 .assign-01 div {
+    margin: 16px auto;
+    border: 3px solid orangered;
+    padding: 16px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.assignment-22-26 .assign-01 div p {
+    background-color: #eee;
+    margin: 16px 24px;
+    border: inherit;
+    padding: inherit;
+    font-size: 24px;
+}
+
+/* Assgin 02 Styles */
+.assignment-22-26 .assign-02 {
+    width: 400px;
+    margin: 8px auto;
+    padding: 16px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.assignment-22-26 .assign-02 .one {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 2.5rem;
+}
+
+.assignment-22-26 .assign-02 .two {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.assignment-22-26 .assign-02 .three {
+    font-family: 'Jomhuria', cursive;
+    font-size: 1.5rem;
+}
