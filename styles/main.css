@@ -174,3 +174,23 @@
 .assignment-13-16 .assign-01 .title {
     color: green;
 }
+
+/* Assgin 02 Styles */
+.assignment-13-16 .assign-02{
+    width: 450px;
+    margin: 8px auto;
+    padding: 16px;
+}
+
+.assignment-13-16 .assign-02 div{
+    background-color: #A52A2A;
+    max-width: 400px;
+    margin: 8px;
+    padding: 16px;
+    overflow: hidden;
+    color: #fff;
+}
+
+.assignment-13-16 .assign-02 .special {
+    max-height: 40px;
+}
