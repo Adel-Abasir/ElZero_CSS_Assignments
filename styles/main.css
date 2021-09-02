@@ -98,3 +98,30 @@
     background-size: 50%;
     background-position: bottom right;
 }
+
+/* Assignment 05 - 08 styles  */
+
+/* Assign 01 Styles */
+.assignment-9-12 .assign-01 div {
+    display: inline-block;
+    margin: 20px;
+    background-color: #ddd;    
+    padding: 20px;
+}
+
+.assignment-9-12 .assign-01 .assign-1-shape-1 {
+    border: 5px solid red;
+    outline: 5px solid black;
+}
+
+.assignment-9-12 .assign-01 .assign-1-shape-2 {
+    border: 5px solid;
+    border-color: blue green;
+    outline: 5px solid black;
+}
+
+.assignment-9-12 .assign-01 .assign-1-shape-3 {
+    border: 5px dotted;
+    border-color: red green blue yellow;
+    outline: 5px solid black;
+}
