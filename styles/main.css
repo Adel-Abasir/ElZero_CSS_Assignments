@@ -5,6 +5,8 @@
 }
 
 /* Assignment 05 - 08 styles  */
+
+/* Assign 01 Styles */
 .assignment-5-8 .assign-01 div {
     width: 500px;
     margin: 20px auto;
@@ -18,4 +20,25 @@
 
 .assignment-5-8 .assign-01 .assign-1-shape-3 {
     background-color: rgb(138, 43, 226, 10%);    
+}
+
+/* Assign 02 Styles  */
+.assignment-5-8 .assign-02 div {
+    width: 400px;
+    height: 400px;
+    background-image: url(../assets/imgs/css-assignment-5-8-02.png);
+    background-color: #ddd;
+    margin: 20px auto;
+}
+
+.assignment-5-8 .assign-02 .assign-2-shape-1 {
+    background-repeat: no-repeat;
+}
+
+.assignment-5-8 .assign-02 .assign-2-shape-2 {
+    background-repeat: repeat-y;
+}
+
+.assignment-5-8 .assign-02 .assign-2-shape-3 {
+    background-repeat: repeat-x;
 }
