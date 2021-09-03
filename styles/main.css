@@ -1,3 +1,12 @@
+/* Global Styles */
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
 /* Side Panel Styles  */
 .side-panel .nav li a {
     text-decoration: none;
@@ -353,6 +362,131 @@
     width: calc( (100% - 202px) / 4);
 }
 
-.assignment-27-29 .assign-01 .parent .clear {
-    clear: both;
+
+/* Assignment 27 - 29 styles  */
+
+/* Assgin 01 Styles */
+.assignment-30-33 .assign-01 {
+    width: 400px;
+    height: 400px;
+    margin: 16px auto;
+    background-color: #eee;
+    position: relative;
+}
+
+.assignment-30-33 .assign-01 div {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin: auto;
+}
+
+.assignment-30-33 .assign-01 .green  {
+    background-color: #009688;
+    top: 40px;
+    left: 40px;
+    z-index: 3;
+}
+
+.assignment-30-33 .assign-01 .red  {
+    background-color: #F44336;
+    top: 60px;
+    left: 60px;
+    z-index: 4;
+}
+
+.assignment-30-33 .assign-01 .blue  {
+    background-color: #03A9F4;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+}
+
+.assignment-30-33 .assign-01 .black  {
+    background-color: #000;
+    top: 40px;
+    left: 20px;
+    z-index: 1;
+}
+
+/* Assgin 02 Styles */
+.assignment-30-33 .assign-02 div {
+    width: 400px;
+    margin: 16px auto;
+    padding: 24px;
+    background-color: #eee;
+    position: relative;
+    border: 3px solid;
+    border-color: #F44336 #2196F3;
+    text-align: center;
+}
+
+.assignment-30-33 .assign-02 div span {
+    position: absolute;
+    padding: 8px 16px;
+    background-color: #2196F3;
+    color: #fff;
+}
+
+.assignment-30-33 .assign-02 div .top-left,
+.assignment-30-33 .assign-02 div .bottom-left {
+    border-right: 3px solid #F44336;
+}
+
+.assignment-30-33 .assign-02 div .top-right,
+.assignment-30-33 .assign-02 div .bottom-right {
+    border-left: 3px solid #F44336;
+}
+
+.assignment-30-33 .assign-02 div .top-left {
+    top: -17px;
+    left: -21px;
+}
+
+.assignment-30-33 .assign-02 div .bottom-left {
+    bottom: -17px;
+    left: -21px;
+}
+
+.assignment-30-33 .assign-02 div .top-right {
+    top: -17px;
+    right: -21px;
+}
+
+.assignment-30-33 .assign-02 div .bottom-right {
+    right: -21px;
+    bottom: -17px;
+}
+
+/* Assgin 02 Styles */
+.assignment-30-33 .assign-03 .main-list {
+    width: 400px;
+    margin: 16px auto;
+    padding: 0;
+    border: 1px solid #eee;
+    list-style: none;
+}
+
+.assignment-30-33 .assign-03 .main-list>li {
+    background-color: #eee;
+    margin: 12px;
+    padding: 8px;
+}
+
+.assignment-30-33 .assign-03 .main-list>li ul{
+    padding: 0;
+}
+
+.assignment-30-33 .assign-03 .main-list>li ol {
+    padding: 0 30px;
+}
+
+.assignment-30-33 .assign-03 .main-list>li li {
+    background-color: #fff;
+    margin: 4px;
+    padding: 0 8px;
+}
+
+.assignment-30-33 .assign-03 .main-list>li ul>li {
+    list-style-position: inside;
 }
