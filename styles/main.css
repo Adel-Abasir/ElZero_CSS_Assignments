@@ -723,17 +723,10 @@ body {
 }
 
 .assignment-38-41 .assign-03 .parent .card {
-    width: calc( (100% - 64px) / 2);
+    width: calc( (100% - 65px) / 2);
     padding: 16px;
-    background-color: #eee;
-}
-
-.assignment-38-41 .assign-03 .parent .left-card {
     float: left;
-}
-
-.assignment-38-41 .assign-03 .parent .right-card {
-    float: right;
+    background-color: #eee;
 }
 
 .assignment-38-41 .assign-03 .parent .card .button{
@@ -762,10 +755,11 @@ body {
 
 .assignment-38-41 .assign-03 .parent .vertical-line {
     width: 1px;
-    height: 317px;
+    height: 327px;
     background-color: #03A9F4;
-    display: inline-block;
+    float: left;
     position: relative;
+    margin: 0 32px;
 }
 
 .vertical-line::before {
