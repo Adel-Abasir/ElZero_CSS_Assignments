@@ -1,4 +1,8 @@
 /* Global Styles */
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Cairo', sans-serif;
 }
@@ -352,6 +356,11 @@ body {
     background-color: #eee;
 }
 
+/* this is only here to reverse gloable box-sizing: border-box */
+.assignment-27-29 .assign-01 .parent div{
+    box-sizing: content-box; 
+}
+
 .assignment-27-29 .assign-01 .parent .full-width,
 .assignment-27-29 .assign-01 .parent .one-third-width,
 .assignment-27-29 .assign-01 .parent .half-width,
@@ -388,6 +397,11 @@ body {
     margin: 16px auto;
     background-color: #eee;
     position: relative;
+}
+
+/* this is only here to reverse gloable box-sizing: border-box */
+.assignment-30-33 .assign-01 div{
+    box-sizing: content-box; 
 }
 
 .assignment-30-33 .assign-01 div {
@@ -590,7 +604,6 @@ body {
 .assignment-34-37 .assign-04 {
     width: 400px;
     margin: 16px auto;
-    counter-increment: p-counter;
 }
 
 .assignment-34-37 .assign-04 p::before {
@@ -604,8 +617,165 @@ body {
 }
 
 .assignment-34-37 .assign-04 p {
+    counter-increment: p-counter;
     padding: 12px;
     border-right: 4px solid #F44336;
     background-color: #eee;
     position: relative;
+}
+
+/* Assignment 38 - 41 styles  */
+
+/* Assgin 01 Styles */
+.assignment-38-41 .assign-01 {
+    width: 500px;
+    margin: 16px auto;
+    border: 1px solid #eee;
+    text-align: center;
+}
+
+.assignment-38-41 .assign-01> label {
+    position: relative;
+    top: -60px;
+    margin-top: 15px;;
+}
+
+.assignment-38-41 .assign-01 div {
+    width: 100px;
+    height: 100px;
+    margin: 16px;
+    background-color: #eee;
+    border: 2px solid #000;
+    box-shadow: -4px -4px 0 0 #E91E63, 4px 4px 0 0 #2196F3;
+    text-align: center;
+    border-radius: 50% ;
+    -webkit-border-radius: 50% ;
+    -moz-border-radius: 50% ;
+    -ms-border-radius: 50% ;
+    -o-border-radius: 50% ;
+    counter-increment: circle-counter;
+    position: relative;
+    display: inline-block;
+}
+
+.assignment-38-41 .assign-01 div::before {
+    content: "element";
+    text-transform: capitalize;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -15px;
+    margin-left: -28px;
+    font-weight: bold;
+}
+
+.assignment-38-41 .assign-01 div::after {
+    content: counter(circle-counter);
+    background-color: #000;
+    border-radius: 50%;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-top: -15px;
+    margin-left: -15px;
+    font-weight: bold;
+    -webkit-border-radius: 50%;
+    width: 30px;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    height: 30px;
+}
+
+/* Assgin 02 Styles */
+.assignment-38-41 .assign-02 {
+    width: 400px;
+    margin: 16px auto;
+    border: 1px solid #eee;
+    text-align: center;
+    padding: 16px;
+}
+
+.assignment-38-41 .assign-02 div {
+    width: 200px;
+    height: 200px;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 16px 32px;
+    border-bottom-right-radius: 16px 32px;
+    box-shadow: inset 0px 0px 16px 8px #888;
+    left: 50%;
+    position: relative;
+    margin-left: -100px;
+}
+
+/* Assgin 03 Styles */
+.assignment-38-41 .assign-03 .parent {
+    width: 550px;
+    margin: 16px auto;
+    border: 1px solid #eee;
+    text-align: center;
+    padding: 16px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.assignment-38-41 .assign-03 .parent .card {
+    width: calc( (100% - 64px) / 2);
+    padding: 16px;
+    background-color: #eee;
+}
+
+.assignment-38-41 .assign-03 .parent .left-card {
+    float: left;
+}
+
+.assignment-38-41 .assign-03 .parent .right-card {
+    float: right;
+}
+
+.assignment-38-41 .assign-03 .parent .card .button{
+    padding: 8px;
+    background-color: #03A9F4;
+    color: #fff;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.assignment-38-41 .assign-03 .parent .card .price{
+    padding: 78px 78px;
+    background-color: #ccc;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: #000;
+    margin: 32px 0 16px;
+    font-size: 1.5rem;
+}
+
+.assignment-38-41 .assign-03 .parent .vertical-line {
+    width: 1px;
+    height: 317px;
+    background-color: #03A9F4;
+    display: inline-block;
+    position: relative;
+}
+
+.vertical-line::before {
+    content: 'or';
+    background-color: #03A9F4;
+    border-radius: 50%;
+    padding: 1px 8px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -16px;
+    margin-left: -16px;
 }
