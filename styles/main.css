@@ -399,11 +399,6 @@ body {
     position: relative;
 }
 
-/* this is only here to reverse gloable box-sizing: border-box */
-.assignment-30-33 .assign-01 div{
-    box-sizing: content-box; 
-}
-
 .assignment-30-33 .assign-01 div {
     width: 100px;
     height: 100px;
@@ -529,6 +524,11 @@ body {
     margin: 16px auto;
     border: 1px solid #eee;
     text-align: center;
+}
+
+/* this is only here to reverse gloable box-sizing: border-box */
+.assignment-34-37 .assign-01 div{
+    box-sizing: content-box; 
 }
 
 .assignment-34-37 .assign-01 div {
