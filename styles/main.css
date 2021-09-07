@@ -1,4 +1,9 @@
 /* Global Styles */
+:root{
+    --mainColor: #009688;
+    --mainPadding: 10px;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -773,3 +778,78 @@ body {
     margin-top: -16px;
     margin-left: -16px;
 }
+
+/* Assignment 42 - 45 styles  */
+
+/* Assgin 01 Styles */
+.assignment-42-45 .assign-01 {
+    border: 1px solid #eee;
+}
+
+.assignment-42-45 .assign-01 .parent {
+    width: 400px;
+    height: 200px;
+    margin: 32px auto;
+    padding: 16px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    text-align: center;
+    text-transform: capitalize;
+    transition: margin-top 0.5s;
+    -webkit-transition: margin-top 0.5s;
+    -moz-transition: margin-top 0.5s;
+    -ms-transition: margin-top 0.5s;
+    -o-transition: margin-top 0.5s;
+}
+
+.assignment-42-45 .assign-01 .parent:hover {
+    margin-top: 16px;
+}
+
+.assignment-42-45 .assign-01 .parent .child {
+    margin: 16px auto;
+    padding: 16px;
+    background-color: #ccc;
+    transition: margin-top .5s .5s;
+    -webkit-transition: margin-top .5s .5s;
+    -moz-transition: margin-top .5s .5s;
+    -ms-transition: margin-top .5s .5s;
+    -o-transition: margin-top .5s .5s;
+}
+
+.assignment-42-45 .assign-01 .parent:hover > .child {
+    margin-top: 32px;
+}
+
+/* Assgin 02 Styles */
+.assignment-42-45 .assign-02 div {
+    width: 400px;
+    /* padding: 16px; */
+    margin: 16px auto;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 0px !important;
+    border: none !important;
+    background-color: #eee !important;
+    color: #000 !important;
+}
+
+.assignment-42-45 .assign-02 div::before {
+    content: "elzero";
+    font-size: 20px;
+}
+
+/* Assgin 02 Styles */
+.assignment-42-45 .assign-03 {
+    width: 400px;
+    margin: 16px auto;
+    border: 1px solid #eee;
+}
+
+.assignment-42-45 .assign-03 div {
+    margin: 16px;
+    padding: var(--mainPadding, 16px);
+    border: 4px solid var(--mainColor, #000);
+    color: var(--mainColor, #f00);
+    font-weight: bold;
+}    
